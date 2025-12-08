@@ -24,7 +24,7 @@ npm install html-lang-primary-subtags
 ```ts
 import type { PrimaryLanguageSubtag } from "html-lang-primary-subtags";
 
-const lang: PrimaryLanguageSubtag = "fi"; // ok
+const lang: PrimaryLanguageSubtag = "en"; // ok
 // const invalid: PrimaryLanguageSubtag = "en-US"; // compile-time error
 ```
 
