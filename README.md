@@ -7,7 +7,7 @@ This package provides a strictly typed union of all registered **primary languag
 Useful for:
 
 - typing HTML `lang` attribute safely
-- typing config files for multilingual sites
+- typing multilingual function params
 - autocomplete of valid language codes
 - avoiding invalid language identifiers at compile time
 
