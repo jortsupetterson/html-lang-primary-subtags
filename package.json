@@ -1,6 +1,6 @@
 {
   "name": "html-lang-primary-subtags",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "TypeScript union type for primary language subtags (ISO-639/IANA) usable in HTML lang attribute.",
   "keywords": [
     "typescript",
@@ -26,8 +26,18 @@
   },
   "files": [
     "dist",
-    "README.md"
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jortsupetterson/html-lang-primary-subtags.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jortsupetterson/html-lang-primary-subtags/issues"
+  },
+  "homepage": "https://github.com/jortsupetterson/html-lang-primary-subtags#readme",
   "sideEffects": false,
   "scripts": {
     "build": "tsc",
