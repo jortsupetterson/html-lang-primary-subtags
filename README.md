@@ -34,8 +34,24 @@ const lang: PrimaryLanguageSubtag = "en"; // ok
 
 - `PrimaryLanguageSubtag` – primary language subtags (ISO-639-1)
 - `RegionSubtag` – uppercase region codes (ISO-3166-1 alpha-2)
-- `Bcp47Locale` – `${PrimaryLanguageSubtag}-${RegionSubtag}` for HTML `lang`
+- `Bcp47Locale` – `${PrimaryLanguageSubtag}-${RegionSubtag}` for HTML `lang` (BCP-47)
 - `OgLocale` – `${PrimaryLanguageSubtag}_${RegionSubtag}` for Open Graph tags
+
+### Examples
+
+```ts
+import type {
+  PrimaryLanguageSubtag,
+  RegionSubtag,
+  Bcp47Locale,
+  OgLocale,
+} from "html-lang-primary-subtags";
+
+const lang: PrimaryLanguageSubtag = "en";
+const region: RegionSubtag = "US";
+const bcp47: Bcp47Locale = "en-US";
+const ogLocale: OgLocale = "en_US";
+```
 
 ## Changelog
 

@@ -1,7 +1,7 @@
 {
   "name": "html-lang-primary-subtags",
-  "version": "1.0.3",
-  "description": "TypeScript union type for primary language subtags (ISO-639/IANA) usable in HTML lang attribute.",
+  "version": "1.1.0",
+  "description": "Typed primary language subtags plus BCP-47 and Open Graph locale string unions.",
   "keywords": [
     "typescript",
     "types",
